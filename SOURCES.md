@@ -111,3 +111,73 @@ For each useful community item, capture the original URL, author, date, model/ve
 ## Rights and reuse
 
 Link to sources and write original summaries. Do not mirror full papers, paid prompt packs, or scraped image collections without permission. See docs/research/DATA-AND-RIGHTS.md.
+
+## Additional source leads reviewed on 2026-10-28
+
+15. **Midjourney — Prompt Basics.**
+    - Official guide: https://docs.midjourney.com/hc/en-us/articles/32023408776205-Prompt-Basics
+    - Key point: recommends clear, specific prompts and warns that long lists can confuse the model; identifies subject, medium, environment, lighting, color, mood, and composition as useful dimensions.
+    - Practical implication: test concise coherent prompts against long descriptive prompts rather than assuming more words always help.
+
+16. **Midjourney — Image Prompts.**
+    - Official guide: https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts
+    - Key point: image references can influence content, composition, and colors; the text should describe the desired output.
+    - Practical implication: benchmark reference-image conditioning separately from text-only prompting.
+
+17. **Midjourney — Style Reference.**
+    - Official guide: https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference
+    - Key point: use style references intentionally and keep text instructions compatible with the reference.
+    - Practical implication: separate content reference, style reference, and identity/subject reference in the experiment record.
+
+18. **Apple Support — Adjust HDR camera settings on iPhone.**
+    - https://support.apple.com/en-lamr/guide/iphone/iph2cafe2ebc/ios
+    - Key point: HDR may combine multiple exposures to preserve highlight and shadow detail.
+    - Practical implication: an iPhone-like rendering may include multi-frame computational processing; do not model it as a single optical exposure only.
+
+19. **Apple Developer — Capturing photos in RAW and Apple ProRAW.**
+    - https://developer.apple.com/documentation/avfoundation/capturing-photos-in-raw-and-apple-proraw-formats
+    - Key point: standard processed formats use computational imaging; RAW workflows retain less-processed sensor data, while ProRAW combines RAW flexibility with multi-image fusion techniques.
+    - Practical implication: distinguish capture format and computational processing when defining camera profiles.
+
+20. **PicGens — ChatGPT Prompts for Realistic Photos.**
+    - https://www.picgens.com/prompts/chatgpt-realistic-photo-prompts
+    - Source class: community prompt gallery/curation, not peer-reviewed evidence.
+    - Useful for discovering prompts with source attribution; do not reuse images or prompts without checking rights and original sources.
+
+21. **Community prompt: How I Fixed Bad AI Faces (After ~1,000 Generations).**
+    - https://www.reddit.com/r/comfyui/comments/1sxz97s/how_i_fixed_bad_ai_faces_after_1000_generations/
+    - Source class: community observation.
+    - Themes reported: specific expression and gaze, skin texture, one coherent light setup, and targeted negative constraints.
+    - Limitation: anecdotal, with potential selection bias and unspecified controlled comparison.
+
+22. **Community prompt: realistic portraits without the “AI look”.**
+    - https://www.reddit.com/r/Aiarty/comments/1vse4iz/how_to_generate_realistic_ai_portraits_without/
+    - Source class: community observation.
+    - Themes reported: describe shot type, lens feel, light direction, skin texture, and small imperfections.
+    - Limitation: the post's claims are not proof that each term causes improvement.
+
+23. **Community skin-texture prompt discussion.**
+    - https://www.reddit.com/r/midjourney/comments/1oa7jsj/the_prompt_i_use_to_generate_extremely_realistic/
+    - Source class: community observation.
+    - Themes reported: pores, peach fuzz, freckles, directional light, and avoiding beauty-filter language.
+    - Limitation: one creator's workflow; demographic framing and model version limit generalization.
+
+24. **Community camera-and-light prompt workflow.**
+    - https://www.reddit.com/r/Aiarty/comments/1p08kn5/how_i_create_realistic_photography_in_midjourney/
+    - Source class: community observation.
+    - Themes reported: plan lens, lighting, time of day, angle, composition, and plausible imperfections before writing the prompt.
+    - Limitation: no controlled test is provided.
+
+25. **Raw Camera Casting prompt system.**
+    - https://github.com/0aicoder0/raw-camera-casting-prompt
+    - Source class: open-source community prompt project.
+    - Useful for comparative analysis of ordinary light, skin texture, and restrained color language. Inspect license and version before reuse; do not treat its rules as scientific findings.
+
+26. **Photography in dermatology — Frontiers in Medicine, 2026.**
+    - https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1854982/full
+    - Relevance: emphasizes how lighting changes the appearance of skin features and color, and discusses image resolution and color rendering.
+    - Context limitation: clinical photography is not identical to portrait photography; use it for capture and illumination principles, not as a beauty standard.
+
+## Research synthesis warning
+
+Community agreement is a useful source of hypotheses, not causal evidence. A recurring phrase such as “visible pores” may correlate with a creator's preferred outputs while the real cause is lighting, model choice, reference images, or selection of the best generation. Validate terms through controlled experiments.
