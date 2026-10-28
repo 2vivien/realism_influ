@@ -12,23 +12,29 @@ This repository is a curated knowledge base and experimental notebook—not a pr
 - [Research methodology](docs/research/METHODOLOGY.md)
 - [Source registry](SOURCES.md)
 - [Skin Realism Pack](assets/skin-realism/README.md)
+- [Hair & Facial Beauty Pack](assets/hair-beauty/README.md)
 - [Lighting library](assets/lighting/README.md)
 - [Camera profiles](assets/camera-profiles/README.md)
-- [Color science and image processing](assets/color-processing/README.md)
-- [Prompt engineering framework](prompts/MASTER-PROMPT.md)
+- [Color science and computational photography](assets/color-processing/README.md)
+- [Capture artifact catalog](assets/capture-artifacts/README.md)
+- [Scene coherence and composition](assets/scene-coherence/README.md)
+- [Master prompt](prompts/MASTER-PROMPT.md)
+- [Reusable prompt modules](prompts/MODULE-CATALOG.md)
 - [Experiment protocol](experiments/EXPERIMENT-PROTOCOL.md)
-- [Evaluation rubric](evaluation/REALISM-RUBRIC.md)
+- [Planned experiment log](experiments/EXPERIMENT-LOG.md)
+- [Realism evaluation rubric](evaluation/REALISM-RUBRIC.md)
+- [Data and image rights](docs/research/DATA-AND-RIGHTS.md)
 - [Contribution guide](CONTRIBUTING.md)
 
 ## Principles
 
 1. **Evidence before claims.** Separate peer-reviewed findings, manufacturer specifications, practitioner guidance, and hypotheses.
-2. **Record provenance.** Every source has a URL, publication metadata when available, access date, relevance, and confidence.
+2. **Record provenance.** Every source should have a URL, publication metadata when available, access date, relevance, and confidence.
 3. **Test prompt components.** Change one major variable at a time when possible; record model, version, settings, seed, reference inputs, and outcomes.
 4. **Physical coherence beats adjective stacking.** Skin, lighting, lens behavior, perspective, and processing must agree with the same capture scenario.
 5. **No fake camera certainty.** A prompt saying “85 mm f/2” does not guarantee that a model simulates a real lens. Camera metadata is a target description unless independently verified.
-6. **No universal “realism recipe.”** Model behavior varies. Results must be reported per model and version.
-7. **Respect people and image rights.** Use licensed, consented, public-domain, or otherwise authorized reference material. Do not use the library to impersonate a real person or misrepresent synthetic images as documentary evidence.
+6. **No universal realism recipe.** Model behavior varies. Results must be reported per model and version.
+7. **Respect people and image rights.** Use licensed, consented, public-domain, or otherwise authorized reference material. Do not use the library to impersonate a real person or misrepresent synthetic imagery as documentary evidence.
 
 ## Knowledge architecture
 
@@ -46,12 +52,12 @@ This repository is a curated knowledge base and experimental notebook—not a pr
 
 ## Status
 
-This repository starts as a structured research program. Assets marked **hypothesis** or **untested** are not validated recipes. A status of **tested** means an experiment was run and documented; **replicated** means the finding was repeated under specified conditions. These labels do not imply universal effectiveness.
+This repository starts as a structured research program. Assets marked **hypothesis** or **untested** are not validated recipes. **Tested** means an experiment was run and documented; **replicated** means the finding was repeated under specified conditions. Neither label implies universal effectiveness.
 
 ## Citation and reuse
 
-Read each source's license and terms before redistributing images, datasets, code, or full text. The repository should link to sources and summarize findings in original wording rather than mirror copyrighted material. See [Sources](SOURCES.md) and [Data and image rights](docs/research/DATA-AND-RIGHTS.md).
+Read each source's license and terms before redistributing images, datasets, code, or full text. Link to sources and summarize findings in original wording rather than mirroring copyrighted content. See [Sources](SOURCES.md) and [Data and image rights](docs/research/DATA-AND-RIGHTS.md).
 
 ## Language
 
-The main documentation is in English to make the research accessible internationally. French notes and translations are welcome when they add value.
+Main documentation is in English for international accessibility. French notes and translations are welcome when they add value.
