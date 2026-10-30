@@ -25,6 +25,8 @@ This repository is a curated knowledge base and experimental notebook—not a pr
 - [Master prompt](prompts/MASTER-PROMPT.md)
 - [Reusable prompt modules](prompts/MODULE-CATALOG.md)
 - [Photographic scenario cards](prompts/SCENARIO-CARDS.md)
+- [Reference-based close-up portrait prompt](prompts/PORTRAIT-IDENTITY-REFERENCE-PROMPT.md)
+- [Analysis of the close-up portrait prompt](docs/research/ANALYSIS-PORTRAIT-PROMPT.md)
 - [Experiment protocol](experiments/EXPERIMENT-PROTOCOL.md)
 - [Planned experiment log](experiments/EXPERIMENT-LOG.md)
 - [Realism evaluation rubric](evaluation/REALISM-RUBRIC.md)
